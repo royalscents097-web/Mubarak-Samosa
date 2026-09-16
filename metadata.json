@@ -1,0 +1,6 @@
+{
+  "name": "Mubarak Samosa",
+  "description": "Fresh, crispy samosas and authentic Pakistani snacks in Gomal Bazar, District Tank. Call 03111111111 to order.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

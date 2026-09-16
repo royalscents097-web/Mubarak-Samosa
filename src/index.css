@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-deep-brown: #321A12;
+    --color-dark-espresso: #21120D;
+    --color-samosa-brown: #8A3F18;
+    --color-golden: #D99532;
+    --color-orange: #E86F24;
+    --color-tomato: #B92E20;
+    --color-cream: #FFF4DF;
+    --color-warm-ivory: #FFF9EF;
+    --color-sand: #F4E4C8;
+    --color-dark-text: #241712;
+    --color-muted-text: #725447;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: var(--color-dark-text);
+    background-color: var(--color-warm-ivory);
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'DM Serif Display', 'Bree Serif', Georgia, serif;
+  }
+}
+
+/* Custom food brand utilities */
+.font-display {
+  font-family: 'DM Serif Display', 'Bree Serif', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Samosa geometric pattern background */
+.bg-samosa-pattern {
+  background-image: radial-gradient(rgba(217, 149, 50, 0.15) 1.5px, transparent 1.5px), radial-gradient(rgba(232, 111, 36, 0.1) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.bg-subtle-triangles {
+  background-color: #321A12;
+  background-image: radial-gradient(circle at 50% 50%, rgba(217, 149, 50, 0.08) 0%, transparent 60%);
+}
+
